@@ -18,11 +18,11 @@
 #define STXXL_CONFIG_HEADER
 
 // the STXXL library version variables
-#define STXXL_VERSION_MAJOR ${STXXL_VERSION_MAJOR}
-#define STXXL_VERSION_MINOR ${STXXL_VERSION_MINOR}
-#define STXXL_VERSION_PATCH ${STXXL_VERSION_PATCH}
-#define STXXL_VERSION_STRING "${STXXL_VERSION_STRING}"
-#define STXXL_VERSION_PHASE "${STXXL_VERSION_PHASE}"
+#define STXXL_VERSION_MAJOR '1'
+#define STXXL_VERSION_MINOR '4'
+#define STXXL_VERSION_PATCH '99'
+#define STXXL_VERSION_STRING '1.4.99'
+#define STXXL_VERSION_PHASE 'prerelease/Debug'
 
 // if this is a git repository, add the refspec and commit sha
 #mesondefine STXXL_VERSION_GIT_REFSPEC 
